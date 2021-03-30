@@ -1,0 +1,16 @@
+# 엔트리봇 오브젝트의 파이선 코드
+
+import Entry
+
+a = 0
+b = 0
+
+def when_start():
+    Entry.input("첫번째 수 입력")
+    a = Entry.answer()
+    Entry.input("두번째 수 입력")
+    b = Entry.answer()
+    if a > b:
+        Entry.add_x(a - b)
+    else:
+        Entry.add_y(b - a)
