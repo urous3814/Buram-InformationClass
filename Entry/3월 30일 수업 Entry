@@ -1,9 +1,9 @@
-# 엔트리봇 오브젝트의 파이선 코드
+# 엔트리봇 오브젝트의 파이선 코드 / 3월 30일 정보수업 엔트리파이썬 엔트리:https://playentry.org/project/6062ca0e1d9c9700f8deb09a
 
 import Entry
 
-a = 0
-b = 0
+a = 0 #첫 값
+b = 0 #두번째 입력값
 
 def when_start():
     Entry.input("첫번째 수 입력")
